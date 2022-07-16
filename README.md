@@ -2,6 +2,8 @@
 This Repository is about a small tool I wrote to structure my Lua Projects in an easy and convenient way
 
 ## Usage
+Java 17 or newer is needed in order to work
+
 ### Generating a new Project
 - Download the Latest Release or compile it yourself
 - Run the output in the Folder that you want to use for your Lua Project
