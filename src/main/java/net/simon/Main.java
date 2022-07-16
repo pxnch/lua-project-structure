@@ -63,7 +63,7 @@ public class Main {
                     fileNames.add( fileToAdd );
 
                     System.out.println( "Registered File \"" + fileToAdd + "\"" );
-                } else if ( !line.startsWith( "#" ) && !line.startsWith( "\n" ) ) {
+                } else if ( !line.startsWith( "#" ) && !line.isEmpty( ) ) {
                     System.out.println( "Invalid Line beginning, expected \"add_file\" or \"#\" as beginning, but got \"" + line + "\"" );
                 }
             }
